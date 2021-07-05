@@ -12,17 +12,13 @@ import json
 
 class Covid:
     def __init__(self):
-        self.default_loc = ['Clackmannanshire', 'Dumfries & Galloway', 'East Ayrshire', 'East Lothian',
-                            'East Renfrewshire',
-                            'Na h-Eileanan Siar', 'Falkirk', 'Highland', 'Inverclyde', 'Midlothian', 'Moray',
-                            'North Ayrshire',
-                            'Orkney Islands', 'Scottish Borders', 'Shetland Islands', 'South Ayrshire',
-                            'South Lanarkshire',
-                            'Stirling', 'Aberdeen City', 'Aberdeenshire', 'Argyll & Bute', 'City of Edinburgh',
-                            'Renfrewshire',
-                            'West Dunbartonshire', 'West Lothian', 'Angus', 'Dundee City', 'East Dunbartonshire',
-                            'Fife',
-                            'Perth & Kinross', 'Glasgow City', 'North Lanarkshire']
+        self.default_loc = ['Aberdeen City', 'Aberdeenshire', 'Angus', 'Argyll & Bute', 'City of Edinburgh',
+                            'Clackmannanshire', 'Dumfries & Galloway', 'Dundee City', 'East Ayrshire',
+                            'East Dunbartonshire', 'East Lothian', 'East Renfrewshire', 'Falkirk', 'Fife',
+                            'Glasgow City', 'Highland', 'Inverclyde', 'Midlothian', 'Moray', 'Na h-Eileanan Siar',
+                            'North Ayrshire', 'North Lanarkshire', 'Orkney Islands', 'Perth & Kinross', 'Renfrewshire',
+                            'Scottish Borders', 'Shetland Islands', 'South Ayrshire', 'South Lanarkshire', 'Stirling',
+                            'West Dunbartonshire', 'West Lothian']
         self.locations = []
         self.positive = []
         self.total_cases = []
